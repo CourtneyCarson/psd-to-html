@@ -1,0 +1,115 @@
+/* Mobile First */
+
+/* Header Section */
+header {
+  background: url('/hero-image.png'); 
+  background-size:cover;
+  min-height: 40vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  flex-direction: column;
+}
+
+nav li {
+  padding: 0 2em 0 0em;
+}
+
+nav a {
+  color: white;
+}
+
+.logo-header {
+  height: 3em;
+  width: 3em;
+  padding: 1em;
+}
+
+/* History Section */
+.sticky-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sticky-nav ul {
+  /* display: flex; */
+  list-style-type: none;
+  /* margin-right: 20em; */
+  /* color: white; */
+}
+
+.sticky-nav li {
+  padding: 0 2em 0 0em;
+}
+
+.sticky-nav a {
+  color: navy;
+}
+
+.history-content {
+  background: url('./peak.png');
+  background-size:cover;
+  min-height: 100vh;
+
+}
+
+
+
+@media screen and (min-width:600px){
+/* Header Section */
+header {
+  background: url('/hero-image.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+nav {
+  padding-top: 1em;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20em;
+}
+
+.logo-header {
+  margin-left: 20em;
+}
+
+
+/* History Section */
+.sticky-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sticky-nav ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 20em;
+  color: white;
+}
+
+.sticky-nav li {
+  padding: 0 2em 0 0em;
+}
+
+.sticky-nav a {
+  color: navy;
+}
+
+.logo {
+  margin-left: 20em;
+}
+
+
+}
